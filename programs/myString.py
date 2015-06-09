@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
-myStr="Ravishankar"
-print len(myStr)
-print dir(myStr)
+
+first = "hi, %s", raw_input()
+second = "the date today is: %d", int(raw_input())
+
+print first, second
